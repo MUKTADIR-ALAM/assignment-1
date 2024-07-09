@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,14 +12,50 @@ body {
 
 /* hero section styles starts here */
 .hero-section {
-  position: absolute;
   width: 100%;
   height: 652px;
-  left: 0;
-  right: 0;
-  top: 131px;
-  bottom: 4462px;
   border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/Hero-bg.png");
 }
 
+.hero-container {
+  width: 70%;
+  height: 582px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+}
+
+.hero-container > h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 37px;
+  font-weight: 800;
+}
+.hero-container > p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.hero-button-container > button {
+  width: 243px;
+  height: 66px;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  border: none;
+  padding: 21px 24px 21px 24px;
+  color: white;
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
 /* hero section styles ends here */
