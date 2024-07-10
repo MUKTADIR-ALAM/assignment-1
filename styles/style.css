@@ -106,7 +106,7 @@ body {
   width: 80%;
   height: 369px;
   margin: 0 auto;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   /* border: 2px solid red; */
   display: flex;
   justify-content: space-evenly;
@@ -151,3 +151,43 @@ font-family: Azeret Mono;
   /* border: 2px solid blue; */
 }
 /* why webdev section styles ends here */
+
+
+/* inspiration section styles starts here */
+
+.inspiration{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+}
+
+.inspiration-text-container{
+  /* border: 2px solid red; */
+  width: 60%;
+}
+
+.inspiration-text-container h1{
+  margin-bottom: 24px;
+  font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+}
+
+.inspiration-text-container p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.inspiration-video-container{
+
+}
+
+.inspiration-video-container iframe{
+border-radius: 16px;
+}
+
+/* inspiration section styles ends here */
