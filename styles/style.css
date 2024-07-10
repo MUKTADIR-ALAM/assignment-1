@@ -237,7 +237,7 @@ body {
   /* background-color: rgb(228, 228, 228); */
 
   /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
-  background: rgba(0, 76, 232, 0.05);
+  background: rgba(0, 77, 232, 0.055);
   text-align: left;
   padding: 15px;
 }
@@ -269,6 +269,79 @@ line-height: 36px;
 /* support-section styles starts here */
 
 
+.support{
+  width: 90%;
+height: 400px;
+background-color: rgba(0, 0, 0, 0.5);
+background-blend-mode: overlay;
+  background-image: url('../assets/handshake.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+
+
+.support-text{
+  color: white;
+
+}
+.support-text > h1{
+  font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+margin-bottom: 16px;
+
+}
+.support-text > p{
+  font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 24px;
+
+}
+
+.support-content > form{
+  height: 57px;
+}
+.support-content > form >input[type="text"]{
+  height: 57px;
+  width: 548px;
+  padding: 19px;
+  font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+}
+.support-content > form >input[type="button"]{
+  width: 120px;
+height: 57px;
+  /* padding: 19px; */
+  font-family: Azeret Mono;
+  font-size: 20px;
+font-weight: 600;
+
+}
+
+.support-content > form{
+  height: 57px;
+}
+
 
 
 /* support-section ends starts here */
+
+
+/* footer section styles */
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
