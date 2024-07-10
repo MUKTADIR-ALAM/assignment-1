@@ -15,7 +15,7 @@ body {
 /* hero section styles starts here */
 .hero-section {
   width: 100%;
-  height: 652px;
+  height: 752px;
   /* border: 2px solid red; */
   display: flex;
   justify-content: center;
@@ -104,7 +104,7 @@ body {
 }
 
 .why-webdev-content-box {
-  width: 80%;
+  width: 90%;
   height: 369px;
   margin: 0 auto;
   /* margin-top: 40px; */
@@ -137,11 +137,17 @@ body {
 }
 
 .why-webdev-content-box-text > button {
-  width: 150px;
+  width: 140px;
   height: 48px;
   font-size: 20px;
   font-weight: 600;
   font-family: Azeret Mono;
+  cursor: pointer;
+}
+
+.why-webdev-content-box-text > button > a{
+  color: black;
+  text-decoration: none;
 }
 
 .why-webdev-content-box-img {
@@ -237,10 +243,24 @@ body {
   /* background-color: rgb(228, 228, 228); */
 
   /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
-  background: rgba(0, 77, 232, 0.055);
+  /* background: rgba(0, 77, 232, 0.055); */
   text-align: left;
   padding: 15px;
 }
+
+.skill-1{
+  background-color: rgba(250, 141, 90, 0.219);
+  border-radius: 9px;
+}
+.skill-2{
+  background-color: rgba(0, 102, 244, 0.219);
+  border-radius: 9px;
+}
+.skill-3{
+  background-color: rgba(255, 221, 2, 0.219);
+  border-radius: 9px;
+}
+
 
 .skill > img{
   width: 45px;
@@ -344,4 +364,12 @@ footer{
   display: flex;
   justify-content: space-between;
   padding: 30px;
+  background-color: rgba(129, 129, 129, 0.295);
+}
+footer > h4{
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
 }
